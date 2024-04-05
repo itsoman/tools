@@ -1,0 +1,3 @@
+Small tool for multipart uploading directly to S3. Purpose of this is so that the IOIO system can pair the file with the metadata which is created before uploading the file. It mimicks the upload process from the FE.
+ - For upload_video.py if there are no credentials for S3 in the config file the program will exit, however these can be removed from the code and the system default AWS CLI credentials will be used instead. To do this you'll need to remove the access key and secret keys from the s3_client definition on row 82 and comment out or remove rows 54 to 59.
+ - For upload_image.py goes the same, just different rows.
