@@ -6,7 +6,7 @@ import requests
 import boto3
 
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('../configs/library_multipart_upload_to_S3/config.ini')
 
 bucket_name = ""
 current_date = datetime.datetime.now()

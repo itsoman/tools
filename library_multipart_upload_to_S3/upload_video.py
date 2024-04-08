@@ -7,7 +7,7 @@ import boto3
 from boto3.s3.transfer import TransferConfig
 
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('../configs/library_multipart_upload_to_S3/config.ini')
 
 bucket_name = ""
 post_data = {

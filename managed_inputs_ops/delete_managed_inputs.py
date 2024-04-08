@@ -15,7 +15,7 @@ i=0
 workflows_array = {}
 
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('../configs/managed_inputs_ops/config.ini')
 workflows_url = '/workflows'
 authorize_url = '/auth/authorize'
 

@@ -8,7 +8,7 @@ workflows_array = {}
 options = {}
 
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('../configs/blueprints_deploy/config.ini')
 authorize_url = '/auth/authorize' #this could be added to the config file
 
 id_token = '' #this can be declared in the class

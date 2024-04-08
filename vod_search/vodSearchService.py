@@ -3,7 +3,7 @@ import json
 
 import configparser
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('../configs/vod_search/config.ini')
 
 
 

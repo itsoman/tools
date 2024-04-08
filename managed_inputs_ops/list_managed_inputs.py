@@ -8,7 +8,7 @@ def rand_gen(size, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('../configs/managed_inputs_ops/config.ini')
 managed_inputs_url = '/managed-inputs/'
 authorize_url = '/auth/authorize'
 managed_input_id = ''
