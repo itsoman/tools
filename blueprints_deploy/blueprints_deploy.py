@@ -101,9 +101,9 @@ class DEPLOYING:
         global git_payload_request
         global git_url
         print("Deploying blueprints...")
-        print(git_url)
-        print(git_payload_request)
-        # req_deploy = requests.post(git_url,data=git_payload_request)
+        # print(git_url)
+        # print(git_payload_request)
+        req_deploy = requests.post(git_url,data=git_payload_request)
 
     def menu_display(self, options, header_message):
         options['Exit'] = 0
